@@ -68,6 +68,7 @@ lua_source(lua_sources lua/config/utils/odict.lua          config_utils_odict_lu
 lua_source(lua_sources lua/config/utils/schema.lua         config_utils_schema_lua)
 lua_source(lua_sources lua/config/utils/snapshot.lua       config_utils_snapshot_lua)
 lua_source(lua_sources lua/config/utils/tabulate.lua       config_utils_tabulate_lua)
+lua_source(lua_sources lua/config/utils/textutil.lua       config_utils_textutil_lua)
 
 if (ENABLE_CONFIG_EXTRAS)
     lua_source(lua_sources ${CONFIG_EXTRAS_DIR}/source/etcd.lua config_source_etcd_lua)
